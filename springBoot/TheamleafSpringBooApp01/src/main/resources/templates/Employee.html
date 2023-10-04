@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+
+<title>spring-boot-thymleaf</title>
+
+<!--link rel="stylesheet" type="text/css" href="./css/style1.css"-->
+
+<body>
+
+	<h1>Employee information to be displayed here..</h1>
+
+	<p th:text="${message}"></p>
+
+<ol>
+
+		<li th:text="${friend}">
+
+		<!--	<table border="2px">
+
+				<tr>
+
+					<td th:text="${emp.empId}"></td>
+
+					<td th:text="${emp.name}"></td>
+
+					<td th:text="${emp.salary}"></td>
+
+				</tr>
+
+			</table>-->
+
+
+
+		</li>
+
+	</ol>
+
+
+
+	<ol>
+
+		<li th:each="emp :${empList}">
+
+			<table border="2px">
+
+				<tr>
+
+					<td th:text="${emp.empId}"></td>
+
+					<td th:text="${emp.name}"></td>
+
+					<td th:text="${emp.salary}"></td>
+
+				</tr>
+
+			</table>
+
+
+
+		</li>
+
+	</ol>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+
+l	java:S125"<This block of commented-out lines of code should be removed.(É®¬ÿÿÿÿÿH‹DRMAJORZ
+CODE_SMELL
+
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "list".(Ò¤ô®úÿÿÿÿHDRMINORZ
+CODE_SMELL
+g	java:S125*"<This block of commented-out lines of code should be removed.(ÁÂ–H“DRMAJORZ
+CODE_SMELL
+g	java:S125N"<This block of commented-out lines of code should be removed.(ÑÙà‚H”DRMAJORZ
+CODE_SMELL
+g	java:S125:"<This block of commented-out lines of code should be removed.(ß‡ß›HœDRMAJORZ
+CODE_SMELL
+l	java:S125D"<This block of commented-out lines of code should be removed.(ÿºàøÿÿÿÿHDRMAJORZ
+CODE_SMELL
+b
+java:S1135L"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHDRINFOZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³‰î°HŸDRMINORZ
+CODE_SMELL
+Š
+java:S1488;"^Immediately return this expression instead of assigning it to the temporary variable "result".(Ş™ñ½H DRMINORZ
+CODE_SMELL

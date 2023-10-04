@@ -1,0 +1,19 @@
+
+server:
+   port:
+      8089
+      
+spring:
+   application:
+      name:
+         This name is from yml file
+         
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+         
+                                           
+                                               
+    

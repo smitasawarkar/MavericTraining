@@ -1,0 +1,12 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ž„Ü÷þÿÿÿÿHÚBRMINORZ
+CODE_SMELL
+]
+java:S1135t"2Complete the task associated to this TODO comment.(‡ñÅ¼HÛBRINFOZ
+CODE_SMELL
+]
+java:S1135a"2Complete the task associated to this TODO comment.(‡ñÅ¼HÜBRINFOZ
+CODE_SMELL
+o
+java:S1155#">Use isEmpty() to check whether the collection is empty or not.(ï±á—øÿÿÿÿHÝBRMINORZ
+CODE_SMELL
