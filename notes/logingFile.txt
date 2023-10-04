@@ -1,0 +1,35 @@
+Generae Loging file
+
+step1: download elastic search and kibana
+
+Kibana 8.2.2 | ElasticKibana 8.2.2 | Elastic
+
+logging.file.name=c:/ELK_DEMO/elktest.log
+https://www.elastic.co/downloads/past-releases/elasticsearch-8-2-2
+https://www.elastic.co/downloads/past-releases/kibana-8-2-2
+
+
+step2 : extract files
+
+step3:  open cmd
+
+C:\Users\smitas\Downloads\elasticsearch-8.2.2-windows-x86_64\elasticsearch-8.2.2\bin>elasticsearch
+
+
+step4: copy generated password
+
+step5: localhost:9200
+
+
+
+
+
+kibana
+
+cmd
+kibana.bat
+
+localhost:5601/app
+
+download logstash /extract
+

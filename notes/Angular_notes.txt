@@ -1,0 +1,84 @@
+
+Angular_notes
+
+
+Featurs of AngularJs
+
+
+Data-binding − It is the automatic synchronization of data between model and view components.
+Scope − These are objects that refer to the model. They act as a glue between controller and view.
+Controller − These are JavaScript functions bound to a particular scope.
+Services − AngularJS comes with several built-in services such as $http to make a XMLHttpRequests. These are singleton objects which are instantiated only once in app.
+Filters − These select a subset of items from an array and returns a new array.
+Directives − Directives are markers on DOM elements such as elements, attributes, css, and more. These can be used to create custom HTML tags that serve as new, custom widgets. AngularJS has built-in directives such as ngBind, ngModel, etc.
+Templates − These are the rendered view with information from the controller and model. These can be a single file (such as index.html) or multiple views in one page using partials.
+Routing − It is concept of switching views.
+Model View Whatever − MVW is a design pattern for dividing an application into different parts called Model, View, and Controller, each with distinct responsibilities. AngularJS does not implement MVC in the traditional sense, but rather something closer to MVVM (Model-View-ViewModel). The Angular JS team refers it humorously as Model View Whatever.
+Deep Linking − Deep linking allows to encode the state of application in the URL so that it can be bookmarked. The application can then be restored from the URL to the same state.
+Dependency Injection − AngularJS has a built-in dependency injection subsystem that helps the developer to create, understand, and test the applications easily.
+
+
+
+
+angular difoult port no is 4200
+
+Commands
+
+to install Angular
+npm install -g @angular/cli
+
+ng --help
+ng new --help
+
+for checking angular version
+ng version 
+
+for makeing new angular application
+ng new my-app
+
+for compiling ts file
+ng serve
+
+
+Component
+==========
+
+is main building block of angular application
+the anguler component are plain js class and desin using @Component Decorator. is provide you to component with vied to display & metadata about component
+is provide 
+teplate 
+class
+metadata
+
+commands
+=========
+to create component
+1] ng generate component my-comp1
+
+2] ng generate component habit-list --inline-style --inline-template 
+
+
+difference between constructor and ngOnInit
+
+The Constructor is executed when the class is instantiated. It has nothing do with the angular.
+It is the feature of Javascript and Angular does not have the control over it
+The ngOnInit is Angular specific and is called when the Angular has initialized the component with all its input properties
+The @Input properties are available under the ngOnInit lifecycle hook.
+This will help you to do some initialization stuff like getting data from the back-end server etc to display in the view
+@Input properties are shows up as undefined inside the constructor
+
+
+parent to child component
+=========================
+
+Pass data from parent to child component using @Input() decorator, which allows data to pass through templates and child to parent component using @Output() decorator with the help of Event Emitter.
+In the Child Component
+Import the @Input module from @angular/Core Library
+Mark those property, which you need data from parent as input property using @Input decorator
+In the Parent Component
+Bind the Child component property in the Parent Component when instantiating the Child
+
+
+
+The @Input Decorator is used to configure the input properties of the component. This decorator as also supports change tracking.
+When you mark a property as input property, then the Angular injects values into the component property using Property Binding. The Property Binding uses the [] brackets. The Binding Target (Property of the child component) is placed inside the square brackets. The Binding source is enclosed in quotes. Property binding is one way from Component to the Target in the template

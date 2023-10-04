@@ -1,0 +1,147 @@
+
+A design patterns are well-proved solution for solving the specific problem/task.
+Now, a question will be arising in your mind what kind of specific problem? 
+Let me explain by taking an example.
+Problem Given:Suppose you want to create a class for which only a single instance (or object) 
+should be created and that single object can be used by all other classes.
+Solution:Singleton design pattern is the best solution of above specific problem.
+ So, every design pattern has some specification or set of rules for solving the problems.
+What are those specifications, you will see later in the types of design patterns.
+
+
+But remember one-thing, design patterns are programming language independent strategies for solving the common object-oriented design problems. That means, a design pattern represents an idea, not a particular implementation.
+By using the design patterns you can make your code more flexible, reusable and maintainable. It is the most important part because java internally follows design patterns.
+To become a professional software developer, you must know at least some popular solutions (i.e. design patterns) to the coding problems.
+
+Design pattern are categirised into two parts:
+1. core java (or JSE) design pattern
+2. JEE Design Patterns.
+
+Types of design patterns in java
+1. creation 
+2. structural 
+3. Behevioural
+
+
+Factory method pattern
+defines an interface or abstract class for creating an object but let the subclasses decide which 
+class to instantiate
+is also called as virtual constructor
+
+
+Advantage of Factory Design Pattern
+
+1. Factory Method Pattern allows the sub-classes to choose the type of objects to create.
+2. It promotes the loose-coupling by eliminating the need to bind application-specific classes into
+ the code. That means the code interacts solely with the resultant interface or abstract class,
+ so that it will work with any classes that implement that interface or that extends that abstract class.
+3. Usage of Factory Design Pattern
+4. When a class doesn't know what sub-classes will be required to create
+5. When a class wants that its sub-classes specify the objects to be created.
+6. When the parent classes choose the creation of objects to its sub-classes.
+
+Abstract Factory Pattern
+
+Abstract Factory Pattern says that just define an interface or abstract class for creating 
+families of related (or dependent) objects but without specifying their concrete sub-classes.
+That means Abstract Factory lets a class returns a factory of classes.
+So, this is the reason that Abstract Factory Pattern is one level higher than the Factory Pattern.
+An Abstract Factory Pattern is also known as Kit.
+
+Advantage of Abstract Factory Pattern
+
+Abstract Factory Pattern isolates the client code from concrete (implementation) classes.
+It eases the exchanging of object families.
+It promotes consistency among objects.
+Usage of Abstract Factory Pattern
+When the system needs to be independent of how its object are created, composed, and represented.
+When the family of related objects has to be used together, then this constraint needs to be enforced.
+When you want to provide a library of objects that does not show implementations and only reveals interfaces.
+When the system needs to be configured with one of a multiple family of objects.
+
+Single ton design pattern in java
+
+Singleton Pattern says that just"define a class that has only one instance and provides a global point of access to it".
+In other words, a class must ensure that only single instance should be created and single object can be used by all other classes.
+There are two forms of singleton design pattern
+Early Instantiation: creation of instance at load time.
+Lazy Instantiation: creation of instance when required.
+
+How to create singleton design pattern?
+
+To create the singleton class, we need to have static member of class, 
+private constructor and static factory method.
+
+Static member: It gets memory only once because of static, 
+it contains the instance of the Singleton class.
+
+Private constructor: It will prevent to instantiate the Singleton class from outside the class.
+
+Static factory method: This provides the global point of access to the Singleton object
+ and returns the instance to the caller.
+ 
+Understanding early Instantiation of Singleton Pattern
+
+In such case, we create the instance of the class at the time of declaring the static data member, 
+so instance of the class is created at the time of classloading.
+
+example:-
+
+class A{  
+ private static A obj=new A();//Early, instance will be created at load time  
+ private A(){}  
+   
+ public static A getA(){  
+  return obj;  
+ }  
+  
+ public void doSomething(){  
+ //write your code  
+ }  
+} 
+
+
+Prototype Pattern
+
+
+Prototype Pattern says that cloning of an existing object instead of creating new one and can also be customized as per the requirement.
+This pattern should be followed, if the cost of creating a new object is expensive and resource intensive.
+
+
+Advantage of Prototype Pattern
+
+The main advantages of prototype pattern are as follows:
+It reduces the need of sub-classing.
+It hides complexities of creating objects.
+The clients can get new objects without knowing which type of object it will be.
+It lets you add or remove objects at runtime.
+Usage of Prototype Pattern
+When the classes are instantiated at runtime.
+When the cost of creating an object is expensive or complicated.
+When you want to keep the number of classes in an application minimum.
+When the client application needs to be unaware of object creation and representation.
+
+
+Builder Pattern
+
+Builder Pattern says that "construct a complex object from simple objects using step-by-step approach"
+It is mostly used when object can't be created in single step like in the de-serialization of a complex object.
+Advantage of Builder Design Pattern
+The main advantages of Builder Pattern are as follows:
+It provides clear separation between the construction and representation of an object.
+It provides better control over construction process.
+It supports to change the internal representation of objects.
+
+
+
+
+
+git@github.com:smitasawarkar/MavericTraining.git
+
+
+
+
+
+
+
+

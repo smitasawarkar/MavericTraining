@@ -1,0 +1,39 @@
+
+„	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á‰…³8†ä¦å¤1HìCRMINORZ
+CODE_SMELL
+ƒ	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å€ª™8Äˆñ²¥1HíCRMINORZ
+CODE_SMELL
+ˆ	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÍØ»üÿÿÿÿ8Ãˆñ²¥1HîCRMINORZ
+CODE_SMELL
+’
+java:S1192Q"\Define a constant instead of duplicating this literal "Please check Transaction Id" 3 times.(ÄþÇç8Åô•¥§1HïCRCRITICALZ
+CODE_SMELL
+¥
+java:S1192à"nDefine a constant instead of duplicating this literal "Exception Occurs while processing the request" 4 times.(úÑ…Ž8Åô•¥§1HóCRCRITICALZ
+CODE_SMELL
+µ
+java:S1192ñ"~Define a constant instead of duplicating this literal "Exception Occurs while getting Transaction Data From Database" 3 times.(€üã´8Åô•¥§1HøCRCRITICALZ
+CODE_SMELL
+n
+java:S1141Î"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Åô•¥§1HüCRMAJORZ
+CODE_SMELL
+n
+java:S1141í"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Åô•¥§1HþCRMAJORZ
+CODE_SMELL
+n
+java:S1141³"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Åô•¥§1H€DRMAJORZ
+CODE_SMELL
+n
+java:S1141ß"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Åô•¥§1H‚DRMAJORZ
+CODE_SMELL
+”
+java:S1488B"\Immediately return this expression instead of assigning it to the temporary variable "list".(ß¿Äõùÿÿÿÿ8Åô•¥§1H„DRMINORZ
+CODE_SMELL
+n	java:S125("<This block of commented-out lines of code should be removed.(ÁÑÑñ8Åô•¥§1H‡DRMAJORZ
+CODE_SMELL
+_
+java:S1905B"'Remove this unnecessary cast to "List".(ß¿Äõùÿÿÿÿ8Åô•¥§1HˆDRMINORZ
+CODE_SMELL
+†
+java:S6204€"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Åô•¥§1HŠDRMAJORZ
+CODE_SMELL

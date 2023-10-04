@@ -1,0 +1,31 @@
+<html xmlns:th="https://thymeleaf.org">    
+<head>    
+<title>Index Page</title>    
+</head>    
+<body>    
+<form action="signup" method="post">    
+<table>    
+<tr>    
+<td><label for="user-name">Name</label></td>    
+<td><input type="text" name="name" th:text="${signup.name}"></input></td>    
+ </tr>    
+<tr>    
+<td><label for="email">Email</label></td>    
+<td><input type="text" name="email" th:text="${signup.email}"></input></td>    
+</tr>  
+<tr>    
+<td><label for="department">Department</label></td>    
+<td><input type="text" name="department" th:text="${signup.department}"></input></td>    
+</tr>    
+<tr>    
+<td><label for="action">Actions</label></td>    
+<td><input type="text" name="action" th:text="${signup.action}"></input></td>    
+</tr>  
+<tr>    
+<td></td>    
+<td><input type="submit" value="Submit"></input></td>    
+</tr>    
+</table>    
+</form>    
+</body>    
+</html>
